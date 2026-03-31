@@ -1,0 +1,19 @@
+{
+
+  "type": "module",
+
+  
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.5.0",
+    "@types/three": "^0.183.1",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "three": "^0.183.1"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
