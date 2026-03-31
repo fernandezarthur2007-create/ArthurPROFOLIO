@@ -3,6 +3,10 @@
   "outputDirectory": "client/dist",
   "routes": [
     {
+      "src": "/api/(.*)",
+      "dest": "/server/index.js"
+    },
+    {
       "src": "/.*",
       "dest": "/index.html"
     }
