@@ -92,7 +92,7 @@ export default function Chat({ setStatus, status }) {
     setStatus('thinking');
 
     try {
-      const res = await axios.post('http://localhost:5000/api/chat', { message: trimmed });
+      const res = await axios.post('/api/chat', { message: trimmed });
       setMessages(prev => [...prev, { role: 'ai', text: res.data.text }]);
       setStatus('talking');
     } catch {
